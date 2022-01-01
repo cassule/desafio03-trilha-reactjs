@@ -1,4 +1,4 @@
-export const { format: formatPrice } = new Intl.NumberFormat('pt-br', {
+export const { format: formatPrice } = new Intl.NumberFormat('pt-AO', {
   style: 'currency',
-  currency: 'BRL',
+  currency: 'AOA',
 });
